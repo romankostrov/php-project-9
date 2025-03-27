@@ -1,6 +1,7 @@
 {
     "name": "hexlet/code",
     "description": "my third project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
