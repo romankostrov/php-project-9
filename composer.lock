@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d510be9046131507f2875f860153134",
+    "content-hash": "19d57cf138e8ea571807f8e61d07bb8a",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -883,17 +883,69 @@
             "time": "2025-02-23T14:20:22+00:00"
         },
         {
-            "name": "laravel/serializable-closure",
-            "version": "v2.0.3",
+            "name": "imangazaliev/didom",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "f379c13663245f7aa4512a7869f62eb14095f23f"
+                "url": "https://github.com/Imangazaliev/DiDOM.git",
+                "reference": "50fa6595d14f22c0c984efed5c818485cf548136"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/f379c13663245f7aa4512a7869f62eb14095f23f",
-                "reference": "f379c13663245f7aa4512a7869f62eb14095f23f",
+                "url": "https://api.github.com/repos/Imangazaliev/DiDOM/zipball/50fa6595d14f22c0c984efed5c818485cf548136",
+                "reference": "50fa6595d14f22c0c984efed5c818485cf548136",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DiDom\\": "src/DiDom/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Imangazaliev Muhammad",
+                    "email": "imangazalievm@gmail.com"
+                }
+            ],
+            "description": "Simple and fast HTML parser",
+            "homepage": "https://github.com/Imangazaliev/DiDOM",
+            "keywords": [
+                "didom",
+                "html",
+                "parser",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/Imangazaliev/DiDOM/issues",
+                "source": "https://github.com/Imangazaliev/DiDOM/tree/2.0.1"
+            },
+            "time": "2023-03-05T03:23:48+00:00"
+        },
+        {
+            "name": "laravel/serializable-closure",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/serializable-closure.git",
+                "reference": "b352cf0534aa1ae6b4d825d1e762e35d43f8a841"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/b352cf0534aa1ae6b4d825d1e762e35d43f8a841",
+                "reference": "b352cf0534aa1ae6b4d825d1e762e35d43f8a841",
                 "shasum": ""
             },
             "require": {
@@ -941,7 +993,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-02-11T15:03:05+00:00"
+            "time": "2025-03-19T13:51:03+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1226,6 +1278,50 @@
                 }
             ],
             "time": "2025-02-28T12:46:35+00:00"
+        },
+        {
+            "name": "phpdevcommunity/php-dotenv",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpdevcommunity/php-dotenv.git",
+                "reference": "896b6b1a1184dddd76e536fed674560f4381b400"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpdevcommunity/php-dotenv/zipball/896b6b1a1184dddd76e536fed674560f4381b400",
+                "reference": "896b6b1a1184dddd76e536fed674560f4381b400",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpdevcommunity/unitester": "^0.1.0@alpha"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpDevCommunity\\": "src",
+                    "Test\\PhpDevCommunity\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "F. Michel",
+                    "homepage": "https://www.phpdevcommunity.com"
+                }
+            ],
+            "description": "PHP-DotEnv is a lightweight PHP library designed to simplify the management of environment variables in your PHP applications.",
+            "support": {
+                "issues": "https://github.com/phpdevcommunity/php-dotenv/issues",
+                "source": "https://github.com/phpdevcommunity/php-dotenv/tree/3.0.1"
+            },
+            "time": "2024-12-01T16:42:44+00:00"
         },
         {
             "name": "phpoption/phpoption",
